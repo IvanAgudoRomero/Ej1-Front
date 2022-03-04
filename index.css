@@ -1,0 +1,107 @@
+#contenedor0{
+    height: 100%;
+    width: 100%;
+}
+
+#contenedor1{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cajaC1{
+    background: rgb(255, 0, 0);
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+#contenedor2{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-grow: calc();
+    flex-shrink: calc();
+    justify-content: center;
+}
+
+.cajaC2{
+    background: rgb(255, 0, 0);
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;        
+}
+
+#contenedor3{
+    height: 25%;
+    width: 100%;
+  
+}
+
+#flex{
+    display: flex;    
+}
+
+.cajaC3{
+    background: blue;
+    color: white;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;   
+    flex-grow: 1;     
+}
+
+#especial{
+    background: blue;
+    color: white;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px; 
+    margin-top: 20px;     
+}
+
+#contenedor4{
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+
+.izda{    
+    width: 60%;
+    display: flex;
+}
+
+.dcha{
+    width: 40%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cajaC4a{
+    width: 50%;
+    height: 50px;
+    background: red;
+    margin-left: 20px;
+    margin-top: 20px; 
+    text-align: center;
+    
+}
+
+.cajaC4b{
+    width: 25%;
+    height: 50px;
+    background: red;
+    margin-left: 20px;
+    margin-top: 20px; 
+}
+
+.cajaC4c{
+    background: red;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 50px;
+    width: 33%;   
+    bottom: 0px; 
+
+}
